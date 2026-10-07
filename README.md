@@ -2,152 +2,30 @@
 
 Repository for learning **C#** programming fundamentals, concepts, and practice exercises.
 
-This guide covers the **core basics** you need to get started with C#. Work through each section in order, write small programs for every topic, and practice regularly.
+This guide covers the **core basics** you need to get started with C#.  
+Each section below has a detailed guide in the [`docs/`](docs/) folder.
 
 ---
 
-## 1. Setup & First Program
-- Install .NET SDK (latest LTS version recommended)
-- Install an IDE / editor (Visual Studio, VS Code + C# Dev Kit, Rider)
-- Understand the .NET ecosystem (runtime, libraries, tools)
-- Create and run your first console app (`dotnet new console`)
-- Basic `dotnet` CLI commands (`build`, `run`, `add package`)
+## Learning Roadmap
 
----
-
-## 2. Basic Syntax & Structure
-- Comments (`//`, `/* */`, and XML documentation comments)
-- Namespaces and `using` directives
-- The `Main` method / top-level statements
-- Statements, expressions, and the semicolon
-- Code style and naming conventions (PascalCase, camelCase)
-
----
-
-## 3. Variables, Data Types & Constants
-- Value types: `int`, `long`, `float`, `double`, `decimal`, `bool`, `char`
-- Reference types introduction (`string`, `object`)
-- Variable declaration and initialization
-- `const` and `readonly`
-- Implicit typing with `var`
-- Type conversion / casting (`Convert`, `Parse`, `TryParse`)
-- Nullable value types (`int?`)
-
----
-
-## 4. Input & Output
-- `Console.WriteLine` and `Console.Write`
-- `Console.ReadLine`
-- String interpolation (`$"..."`)
-- Basic formatting
-- Reading and converting user input safely
-
----
-
-## 5. Operators
-- Arithmetic operators
-- Relational / comparison operators
-- Logical operators (`&&`, `||`, `!`)
-- Assignment and compound assignment operators
-- Increment / decrement
-- Null-coalescing operator (`??`)
-- Null-conditional operator (`?.`)
-
----
-
-## 6. Control Flow
-- `if`, `else if`, `else`
-- `switch` statements and switch expressions
-- Ternary operator
-- `for`, `foreach`, `while`, `do-while` loops
-- `break`, `continue`, and `return`
-- Pattern matching basics (introduction)
-
----
-
-## 7. Methods (Functions)
-- Method declaration and definition
-- Parameters and return types
-- Pass by value vs `ref` / `out` / `in`
-- Method overloading
-- Optional and named parameters
-- Local functions
-- Expression-bodied members
-
----
-
-## 8. Arrays, Lists & Strings
-- Single and multidimensional arrays
-- `System.Array` methods
-- `List<T>` (generic collections)
-- `string` immutability and common methods
-- StringBuilder (introduction)
-- `foreach` with collections
-
----
-
-## 9. Object-Oriented Programming (Basics)
-- Classes and objects
-- Fields, properties (auto-properties), and methods
-- Access modifiers (`public`, `private`, `protected`, `internal`)
-- Constructors
-- `this` keyword
-- Encapsulation
-- Static members
-
----
-
-## 10. Inheritance & Polymorphism (Introduction)
-- Inheritance (`:`)
-- `base` keyword
-- Method overriding (`virtual` / `override`)
-- Abstract classes and methods (basics)
-- Interfaces (introduction)
-- Polymorphism in practice
-
----
-
-## 11. Exception Handling
-- `try` / `catch` / `finally`
-- Common exception types
-- Throwing exceptions (`throw`)
-- Custom exceptions (introduction)
-- Best practices for error handling
-
----
-
-## 12. Collections & Generics (Basics)
-- Why generics matter
-- `List<T>`, `Dictionary<TKey, TValue>`, `HashSet<T>`
-- Iterating collections
-- Basic LINQ introduction (`Where`, `Select`, `FirstOrDefault`)
-
----
-
-## 13. File I/O (Basics)
-- Reading and writing text files
-- `File`, `FileInfo`, `StreamReader`, `StreamWriter`
-- Working with paths (`Path` class)
-- Simple JSON serialization (introduction with `System.Text.Json`)
-
----
-
-## 14. Debugging & Tooling
-- Using the debugger in Visual Studio / VS Code
-- Breakpoints, watch windows, call stack
-- Common runtime exceptions and how to diagnose them
-- NuGet package management basics
-
----
-
-## 15. Good Practices for Beginners
-- Follow C# naming conventions
-- Prefer properties over public fields
-- Use meaningful names
-- Keep methods small and focused
-- Handle nulls safely
-- Write readable code first, optimize later
-- Practice solving small problems daily
+| #  | Topic                                      | Detailed Guide |
+|----|--------------------------------------------|----------------|
+| 1  | Setup & First Program                      | [View](docs/01-setup-and-first-program.md) |
+| 2  | Basic Syntax & Structure                   | [View](docs/02-basic-syntax-and-structure.md) |
+| 3  | Variables, Data Types & Constants          | [View](docs/03-variables-data-types-and-constants.md) |
+| 4  | Input & Output                             | [View](docs/04-input-and-output.md) |
+| 5  | Operators                                  | [View](docs/05-operators.md) |
+| 6  | Control Flow                               | [View](docs/06-control-flow.md) |
+| 7  | Methods (Functions)                        | [View](docs/07-methods.md) |
+| 8  | Arrays, Lists & Strings                    | [View](docs/08-arrays-lists-and-strings.md) |
+| 9  | Object-Oriented Programming (Basics)       | [View](docs/09-oop-basics.md) |
+| 10 | Inheritance & Polymorphism (Introduction)  | [View](docs/10-inheritance-and-polymorphism.md) |
+| 11 | Exception Handling                         | [View](docs/11-exception-handling.md) |
+| 12 | Collections & Generics (Basics)            | [View](docs/12-collections-and-generics.md) |
+| 13 | File I/O (Basics)                          | [View](docs/13-file-io.md) |
+| 14 | Debugging & Tooling                        | [View](docs/14-debugging-and-tooling.md) |
+| 15 | Good Practices for Beginners               | [View](docs/15-good-practices.md) |
 
 ---
 
@@ -162,9 +40,8 @@ This guide covers the **core basics** you need to get started with C#. Work thro
 ---
 
 ## Resources (Recommended)
-- **Official**: Microsoft Learn – C# documentation and tutorials
+- **Official**: [Microsoft Learn – C#](https://learn.microsoft.com/en-us/dotnet/csharp/)
 - **Books**: *C# 12 and .NET 8 – Modern Cross-Platform Development* (Mark J. Price), *C# in a Nutshell*
-- **Online**: learn.microsoft.com, csharp.net, DotNetPerls
 - **Practice**: LeetCode (Easy), HackerRank C#, Exercism C# track
 
 ---
